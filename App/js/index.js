@@ -33,7 +33,7 @@ xui.Class('App', 'xui.Module',{
                         "type":"other",
                         "target":"msg",
                         "args":[
-                            "hello {page.xui_ui_comboinput17}",
+                            "hello {page.xui_ui_comboinput17.getValue()}",
                             undefined,
                             200,
                             5000
