@@ -24,8 +24,8 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.Button")
                 .setHost(host,"xui_ui_button5")
                 .setDirtyMark(false)
-                .setLeft("30.833333333333332em")
-                .setTop("23.333333333333332em")
+                .setLeft("28.333333333333332em")
+                .setTop("20em")
                 .setCaption("hello")
                 .onClick([
                     {
@@ -47,9 +47,9 @@ xui.Class('App', 'xui.Module',{
                 xui.create("xui.UI.ComboInput")
                 .setHost(host,"xui_ui_comboinput17")
                 .setDirtyMark(false)
-                .setLeft("25em")
-                .setTop("20em")
-                .setWidth("18em")
+                .setLeft("21.666666666666668em")
+                .setTop("16.666666666666668em")
+                .setWidth("16.333333333333332em")
                 .setLabelSize("8em")
                 .setLabelCaption("your name")
                 .setType("getter")
